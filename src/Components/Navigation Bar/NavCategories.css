@@ -1,0 +1,30 @@
+.catg_of_prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    width: 50%;
+}
+
+.catg_container{
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(44, 39, 39);
+
+}
+
+.catg_container:hover{
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(37, 35, 35);
+     border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

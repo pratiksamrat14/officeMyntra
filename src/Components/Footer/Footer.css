@@ -1,0 +1,9 @@
+.footer{
+    background-color: rgb(244, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color: rgb(156, 145, 145);
+    width: 100vw;
+}

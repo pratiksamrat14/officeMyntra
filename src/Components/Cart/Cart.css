@@ -1,0 +1,29 @@
+.cart-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.items-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
+    
+}
+
+.place-order{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(245, 17, 55);
+    color: white;
+    
+
+}

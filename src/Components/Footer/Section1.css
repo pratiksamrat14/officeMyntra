@@ -1,0 +1,67 @@
+.footer-section1{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+section.footer-section1 >div{
+    width: auto;
+   
+    padding: 20px;
+}
+.footer-sub-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.online_shooping_class{
+   
+    list-style-type: none;
+    margin: 0;
+     padding: 0;
+}
+
+.useful_links_class{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.cutomer_policies_class{
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+div.footer-sub-section3{
+    display: flex;
+    flex-direction: column;
+}
+div.footer-sub-section3>div >a>img{
+        width:100px;
+        height: 30px;
+}
+
+label{
+    /* font-weight: bold; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-sub-section3 >div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_media_handle_class{
+    width: 50%;
+}
+
+.social_media_handle_class>img{
+    width:25px;
+}
+
+.mobile_app{
+ width: 80%;
+}

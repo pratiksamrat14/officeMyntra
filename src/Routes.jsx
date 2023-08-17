@@ -13,7 +13,7 @@ const CreatedRoutes=()=>{
 
              <Routes>
                  <Route exact path="/signin" element={<SignIn/>}/>
-                 <Route exact path="/" element={<HomeNew/>}/>
+                 <Route exact path="/:category" element={<HomeNew/>}/>
                  <Route exact path="/signup" element={<Signup/>}/>
                  <Route exact path="/cart" element={<Cart/>}/>
                  <Route exact path="/product/:id" element={<ProductDetails/>}/>

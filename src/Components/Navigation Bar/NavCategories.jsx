@@ -2,7 +2,7 @@ import React, {useEffect, useState } from "react";
 import {useSelector,useDispatch} from 'react-redux'
 import './NavCategories.css'
 import { sortbycategory } from "../../redux/actions/actions";
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 
 const NavCategories = () => {
   const [category, setCategory] = useState({ data: [] });
@@ -15,7 +15,7 @@ const NavCategories = () => {
   }, []);
         
   const dispatch=useDispatch() ;
-
+   const navigate=useNavigate() ;
   return (
     <>
        
@@ -24,8 +24,9 @@ const NavCategories = () => {
           return (
             <div className="catg_container" key={val} onClick={()=>{
               dispatch(sortbycategory(val))
+              navigate(`/${val}`)
             }} >
-              <span><Link to="/">{val.toUpperCase()}</Link></span>
+              <span>{val.toUpperCase()}</span>
             </div>
           );
         })}
